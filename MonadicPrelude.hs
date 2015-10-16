@@ -1,5 +1,5 @@
 {-# LANGUAGE UnicodeSyntax #-}
-module MonadicPrelude where
+module MonadicPrelude (mhead) where
 
 mhead :: [a] -> Maybe a
 mhead []    = Nothing
